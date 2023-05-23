@@ -1,0 +1,74 @@
+10:16:55.341 INFO      Total Test       ***************************************
+10:16:55.341 INFO      Total Test       ** Execution from Topaz with options **
+10:16:55.341 INFO      Total Test       ***************************************
+10:16:55.341 INFO      Total Test       Using repository: true
+10:16:55.341 INFO      Total Test       Repository URL: http://cwcc:2020/totaltestapi/
+10:16:55.341 INFO      Total Test       ***************************************
+10:16:55.341 INFO      Engine           Test Scenario execution started
+10:16:55.341 INFO      Engine           Using context settings:
+  Engine Version                : 20.14.2.v20230421-1233_134
+  Environment id                : 5b5f2a71787be73b59238d7b
+  Environment type              : Cics
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HITMXC0
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+10:16:55.341 INFO      Engine           Setting variables from context and context data extensions
+10:16:55.341 INFO      Engine             id: environmentId      value: 5b5f2a71787be73b59238d7b
+10:16:55.341 INFO      Engine             id: environmentType    value: CICS
+10:16:55.341 INFO      Engine             id: userId             value: HITMXC0
+10:16:55.341 INFO      Engine             id: accountingInfo     value: 
+10:16:55.341 INFO      Engine             id: datasetHQL         value: 
+10:16:55.341 INFO      SQLSelect        Interpreting SQLSelect id:SELECT statement: SELECT CUSTOMERNUMBER, FIRSTNAME, LASTNAME FROM GENAPPDB.CUSTOMER
+10:16:55.341 INFO      SQLSelect        Using database from Environment:DBCCCWCC
+10:16:56.451 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:2
+10:16:56.451 INFO      IterateData      Interpreting IterateData id: iterate. Number of data iterations: 2. Variable iterateIndex contains iteration number
+10:16:56.451 INFO      IterateData      Iteration number 0 started.
+10:16:56.451 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+10:16:56.451 INFO      Component        Component will be executed in CICS and top level element definitions are:
+10:16:56.451 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+10:16:56.482 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+10:16:56.739 INFO      HCIClient        Creating job directory /u/xatester/hitmxc0/cf8eeae7696d4955851a078dfe9316d0
+10:16:58.497 INFO      HCIClient        Job has been started at host with JobId:J0397759
+10:17:04.210 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HITMXC0C(J0397759) ended with return code: 0000
+  Job name       : HITMXC0C
+  Job id         : J0397759
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:17:04.574 INFO      CWCC CICS        Component completed with program exit: +0
+10:17:04.946 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:17:05.386 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:17:05.386 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+10:17:05.386 INFO      IterateData      Iteration number 1 started.
+10:17:05.386 INFO      Component        Interpreting Component: LGICUS01 program:LGICUS01
+10:17:05.386 INFO      Component        Component will be executed in CICS and top level element definitions are:
+10:17:05.386 INFO      Component          Element: dfhcommarea Area type:DEFAULT
+10:17:05.386 INFO      CWCC CICS        Sending Module execution request to Host for module:LGICUS01 rollback:false
+10:17:06.120 INFO      HCIClient        Creating job directory /u/xatester/hitmxc0/5808889bf49d419cb8bd3e69ea1b7d23
+10:17:07.806 INFO      HCIClient        Job has been started at host with JobId:J0397760
+10:17:13.507 INFO      CWCC CICS        Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HITMXC0C(J0397760) ended with return code: 0000
+  Job name       : HITMXC0C
+  Job id         : J0397760
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:17:13.854 INFO      CWCC CICS        Component completed with program exit: +0
+10:17:14.203 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:17:14.218 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:17:14.218 INFO      Component        Finished interpreting Component: LGICUS01 program:LGICUS01
+10:17:14.218 INFO      IterateData      IterateData completed
+10:17:14.218 INFO      Engine           Test Scenario execution ended
