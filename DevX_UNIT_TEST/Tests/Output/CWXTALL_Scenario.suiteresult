@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuiteResult resultType="VERIFICATION_ERROR" containsSimulation="false">
+  <Message>Total 1 tests failed out of 3 tests.</Message>
+  <Started>20230523-09-46-31</Started>
+  <Ended>20230523-09-47-08</Ended>
+  <XaUnitResults>
+    <XaUnitResult path="../Scenarios/CWXTCOB_Scenario.context" xaUnitPath="../Scenarios/CWXTCOB_Scenario.context" resultPath="CWXTCOB_Scenario.result" containsSimulation="false" resultType="VERIFICATION_ERROR" duration="12864" componentUnderTest="CWXTCOB">
+      <CC />
+      <Message />
+      <DetailedMessage>Unit Test: Test Case: CWXTCOBCase2 for program: CWXTCOB
+Failure    Stub: CWXTCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EMP_DTL_NAME failed. Actual: ROGER FEDERER Expected: VALERIE OLSEN</DetailedMessage>
+    </XaUnitResult>
+    <XaUnitResult path="../Scenarios/CWXTDATE_Scenario.context" xaUnitPath="../Scenarios/CWXTDATE_Scenario.context" resultPath="CWXTDATE_Scenario.result" containsSimulation="false" resultType="SUCCESS" duration="12414" componentUnderTest="CWXTDATE">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+    <XaUnitResult path="../Scenarios/CWXTSUBC_Scenario.context" xaUnitPath="../Scenarios/CWXTSUBC_Scenario.context" resultPath="CWXTSUBC_Scenario.result" containsSimulation="false" resultType="SUCCESS" duration="12036" componentUnderTest="CWXTSUBC">
+      <CC />
+      <Message />
+      <DetailedMessage />
+    </XaUnitResult>
+  </XaUnitResults>
+</XaSuiteResult>

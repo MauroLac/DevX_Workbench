@@ -1,11 +1,5 @@
-09:25:42.598 INFO      Total Test       ***************************************
-09:25:42.598 INFO      Total Test       ** Execution from Topaz with options **
-09:25:42.598 INFO      Total Test       ***************************************
-09:25:42.598 INFO      Total Test       Using repository: true
-09:25:42.598 INFO      Total Test       Repository URL: http://cwcc:2020/totaltestapi/
-09:25:42.598 INFO      Total Test       ***************************************
-09:25:42.598 INFO      Engine           Test Scenario execution started
-09:25:42.598 INFO      Engine           Using context settings:
+09:46:31.287 INFO      Engine           Test Scenario execution started
+09:46:31.287 INFO      Engine           Using context settings:
   Engine Version                : 20.14.2.v20230421-1233_134
   Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
@@ -13,7 +7,7 @@
   zOS agent version             : NEWEST
   Server address                : cwcc.bmc.com
   Server port                   : 16196
-  Job execution timeout seconds : 600
+  Job execution timeout seconds : 300
   Job info interval seconds     : 3
   Socket read timeout           : 30
   Encoding                      : ISO8859-1
@@ -22,22 +16,22 @@
   Use Repository Server         : true
   Account Information           : 
   Dataset High Level Qualifier  : 
-09:25:42.598 INFO      Engine           Setting variables from context and context data extensions
-09:25:42.598 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
-09:25:42.613 INFO      Engine             id: environmentType    value: BATCH
-09:25:42.613 INFO      Engine             id: userId             value: HITMXC0
-09:25:42.613 INFO      Engine             id: accountingInfo     value: 
-09:25:42.613 INFO      Engine             id: datasetHQL         value: 
-09:25:42.613 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-09:25:42.900 INFO      Unittest         Using JCL skeleton to submit JCL
-09:25:47.978 INFO      CWCC Batch       Sending Job execution request to Host 
-09:25:53.373 INFO      CWCC Batch       Job execution completed with status:
+09:46:31.287 INFO      Engine           Setting variables from context and context data extensions
+09:46:31.287 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+09:46:31.287 INFO      Engine             id: environmentType    value: BATCH
+09:46:31.287 INFO      Engine             id: userId             value: HITMXC0
+09:46:31.287 INFO      Engine             id: accountingInfo     value: 
+09:46:31.287 INFO      Engine             id: datasetHQL         value: 
+09:46:31.303 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+09:46:31.303 INFO      Unittest         Using JCL skeleton to submit JCL
+09:46:36.010 INFO      CWCC Batch       Sending Job execution request to Host 
+09:46:41.392 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job HITMXC0A(J0397746) ended with return code: 0000
+  Job status msg : Job HITMXC0A(J0397753) ended with return code: 0000
   Job name       : HITMXC0A
-  Job id         : J0397746
+  Job id         : J0397753
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-09:25:56.176 INFO      Unittest         Execution completed
-09:25:56.180 INFO      Engine           Test Scenario execution ended
+09:46:44.167 INFO      Unittest         Execution completed
+09:46:44.167 INFO      Engine           Test Scenario execution ended

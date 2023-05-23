@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.14.2.v20230421-1233_134?>
+<!--BMC AMI DevX Total Test 20.14.2.v20230421-1233_134 23-mag-2023 9.47.08-->
+<testsuites>
+  <testsuite name="CWXTCOB_Scenario.context" errors="0" tests="1" failures="1">
+    <testcase classname="CWXTCOB_Scenario.context" name="Unit Test: Test Case: CWXTCOBCase1 for program: CWXTCOB" />
+    <testcase classname="CWXTCOB_Scenario.context" name="Unit Test: Test Case: CWXTCOBCase2 for program: CWXTCOB">
+      <failure>Failure    Stub: CWXTCOB_RPTFILE_FILE_01 Record: 00011 Message: Check for EMP_DTL_NAME failed. Actual: ROGER FEDERER Expected: VALERIE OLSEN</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="CWXTDATE_Scenario.context" errors="0" tests="1" failures="0">
+    <testcase classname="CWXTDATE_Scenario.context" name="Unit Test: Test Case: CWXTDATECase1 for program: CWXTDATE" />
+    <testcase classname="CWXTDATE_Scenario.context" name="Unit Test: Test Case: CWXTDATECase2 for program: CWXTDATE" />
+    <testcase classname="CWXTDATE_Scenario.context" name="Unit Test: Test Case: CWXTDATECase3 for program: CWXTDATE" />
+  </testsuite>
+  <testsuite name="CWXTSUBC_Scenario.context" errors="0" tests="1" failures="0">
+    <testcase classname="CWXTSUBC_Scenario.context" name="Unit Test: Test Case: CWXTSUBCCase1 for program: CWXTSUBC" />
+    <testcase classname="CWXTSUBC_Scenario.context" name="Unit Test: Test Case: CWXTSUBCCase2 for program: CWXTSUBC" />
+  </testsuite>
+</testsuites>
