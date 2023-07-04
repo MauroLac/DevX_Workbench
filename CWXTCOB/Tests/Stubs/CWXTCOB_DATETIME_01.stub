@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/CWXTCOB_DATETIME_01.stub" nextCalltoken="10002" stubtype="DATETIME" target="" token="10000">
-  <stub:description>Created: 4-lug-2023 12.11.29</stub:description>
+  <stub:description>Created: 4-lug-2023 13.51.38</stub:description>
   <stub:stubdata callToken="10001" dateTimeType="1" id="0" name="ACCEPT DATE">
     <stub:interface>../Interfaces/CWXTCOB_TODAYS_DATE.interface#Tests/Interfaces/CWXTCOB_TODAYS_DATE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_TODAYS-DATE.listructure#Tests/Structures/CWXTCOB_TODAYS-DATE.listructure">
@@ -15,8 +15,8 @@
       <stub:dateTimeService>
         <stub:serviceName>IGZXLOCT</stub:serviceName>
         <stub:serviceArg>000274CA</stub:serviceArg>
-        <stub:serviceArg>4933CF8A610A978D</stub:serviceArg>
-        <stub:serviceArg>F2F0F2F3F0F7F0F4F0F6F1F1F2F8F6F6F2</stub:serviceArg>
+        <stub:serviceArg>4933CF8BD8A0F5C3</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F3F0F7F0F4F0F7F5F1F3F8F0F6F0</stub:serviceArg>
         <stub:serviceArg xsi:nil="true"/>
       </stub:dateTimeService>
     </stub:dateTimeServiceList>

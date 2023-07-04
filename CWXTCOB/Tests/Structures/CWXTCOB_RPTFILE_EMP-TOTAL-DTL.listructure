@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 20.14.2.v20230421-1233_134?>
-<!--BMC AMI DevX Total Test 20.14.2.v20230421-1233_134 4-lug-2023 12.12.08-->
+<!--BMC AMI DevX Total Test 20.14.2.v20230421-1233_134 4-lug-2023 13.52.16-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/CWXTCOB_RPTFILE_EMP-TOTAL-DTL.listructure">
   <listructure:struct id="EMP_TOTAL_DTL" name="EMP_TOTAL_DTL">
     <properties:properties>

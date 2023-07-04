@@ -3,7 +3,7 @@
   <properties:properties>
     <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
   </properties:properties>
-  <stub:description>Created: 4-lug-2023 12.11.38</stub:description>
+  <stub:description>Created: 4-lug-2023 13.51.47</stub:description>
   <stub:stubdata id="0" name="CWXTSUBC">
     <stub:interface>../Interfaces/CWXTCOB_CWXTSUBC.interface#Tests/Interfaces/CWXTCOB_CWXTSUBC.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWXTCOB_CWXTSUBC.interface#Tests/Interfaces/CWXTCOB_CWXTSUBC.interface</stub:inputinterface>
