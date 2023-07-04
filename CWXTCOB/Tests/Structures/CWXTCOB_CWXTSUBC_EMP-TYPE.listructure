@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 20.14.2.v20230421-1233_134?>
-<!--BMC AMI DevX Total Test 20.14.2.v20230421-1233_134 4-lug-2023 12.06.42-->
+<!--BMC AMI DevX Total Test 20.14.2.v20230421-1233_134 4-lug-2023 12.11.38-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/CWXTCOB_CWXTSUBC_EMP-TYPE.listructure">
   <listructure:struct id="EMP_TYPE" name="EMP_TYPE">
     <properties:properties>

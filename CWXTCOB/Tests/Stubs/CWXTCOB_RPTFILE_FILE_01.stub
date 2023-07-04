@@ -4,7 +4,7 @@
     <properties:property name="bufferType" type="string">OO</properties:property>
     <properties:property name="rollover" type="string">0</properties:property>
   </properties:properties>
-  <stub:description>Created: 4-lug-2023 12.07.12</stub:description>
+  <stub:description>Created: 4-lug-2023 12.12.07</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
     <stub:interface>../Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface#Tests/Interfaces/CWXTCOB_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure#Tests/Structures/CWXTCOB_RPTFILE_BLANK-LINE.listructure">
